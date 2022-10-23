@@ -26,6 +26,8 @@
                             {% render_field form.password class="form-control" id="Password" %}
                         </div>
                         <button type="submit" class="btn btn-primary">Log-in</button>
+                        <hr/>
+                        <p><a href="{% url "password_reset" %}">Forgotten yor password?</a></p>
                     </form>
                 </div>
             </div>
