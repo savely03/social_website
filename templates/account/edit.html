@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block title %}
+    Edit your profile
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                {% if messages %}
+                    {% for message in messages %}
+                        <h6 {% if message.tags %}class="text-{{ message.tags }}{% endif %}">{{ message|safe }}! <a
+                                href="{% url "edit" %}">✖</a></h6>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="alert alert-primary" role="alert">
+                    <h1>Edit your account</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-2">
+                        <label for="first_name" class="form-label">First name</label>
+                        {% render_field user_form.first_name id="first_name" class="form-control" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="last_name" class="form-label">Last name</label>
+                        {% render_field user_form.last_name id="last_name" class="form-control" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="email" class="form-label">Email</label>
+                        {% render_field user_form.email id="email" type='email' class="form-control" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="date" class="form-label">Date of birth</label>
+                        {% render_field profile_form.date_of_birth id="date" type="date" class="form-control" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="photo" class="form-label">Photo</label>
+                        {% render_field profile_form.photo id="photo" class="form-control" %}
+                    </div>
+                    <button type="submit" class="btn btn-primary">Edit account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

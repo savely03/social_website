@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block title %}
+    Registration
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="alert alert-primary" role="alert">
+                    <h1>Create an account</h1>
+                    <p>Please, sign up using the following form:</p>
+                </div>
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-2">
+                        <label for="Username" class="form-label">Username</label>
+                        {% render_field form.username class="form-control" id="Username" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="First_name" class="form-label">First name</label>
+                        {% render_field form.first_name class="form-control" id="First_name" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="Email" class="form-label">Email</label>
+                        {% render_field form.email class="form-control" id="Email" type="email" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="Password" class="form-label">Password</label>
+                        {% render_field form.password class="form-control" id="Password" %}
+                    </div>
+                    <div class="mb-2">
+                        <label for="Password2" class="form-label">Repeat password</label>
+                        {% render_field form.password2 class="form-control" id="Password2" %}
+                    </div>
+                    <button type="submit" class="btn btn-success">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
