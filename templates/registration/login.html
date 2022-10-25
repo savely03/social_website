@@ -5,7 +5,16 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Log-in</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="alert alert-info" role="alert">
+                    <h1>Log-in</h1>
+                </div>
+                <hr/>
+            </div>
+        </div>
+    </div>
     <br>
     {% if form.errors %}
         <div class="p-3 mb-2 bg-danger text-white">Your username or password didn't match. Please try again. <a
@@ -26,8 +35,12 @@
                             {% render_field form.password class="form-control" id="Password" %}
                         </div>
                         <button type="submit" class="btn btn-primary">Log-in</button>
-                        <hr/>
-                        <p><a href="{% url "password_reset" %}">Forgotten yor password?</a></p>
+                        <a href="{% url "register" %}">
+                            <button type="button" class="btn btn-info">Registration</button>
+                        </a>
+                        <br>
+                        <br>
+                        <a href="{% url "password_reset" %}">Forgotten yor password?</a>
                     </form>
                 </div>
             </div>
