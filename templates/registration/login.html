@@ -5,21 +5,23 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-5">
-                <div class="alert alert-info" role="alert">
-                    <h1>Log-in</h1>
+    {% if form.errors %}
+        <div class="container-fluid">
+            <div class="p-3 mb-2 bg-danger text-white">Your username or password didn't match. Please try again. <a
+                    href="{% url "login" %}"><p class="text-info">Log-in</p></a></div>
+        </div>
+    {% else %}
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="alert alert-info" role="alert">
+                        <h1>Log-in</h1>
+                    </div>
+                    <hr/>
                 </div>
-                <hr/>
             </div>
         </div>
-    </div>
-    <br>
-    {% if form.errors %}
-        <div class="p-3 mb-2 bg-danger text-white">Your username or password didn't match. Please try again. <a
-                href="{% url "login" %}"><p class="text-info">Log-in</p></a></div>
-    {% else %}
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-3">
