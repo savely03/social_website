@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecfa6eca-83cc-44c1-b202-8883300ff596" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GVLPtnmMP5RrtUFKrtf3BxDId8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/social_website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\social_website\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="social_website" type="Python.DjangoServer" factoryName="Django server">
+      <module name="social_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecfa6eca-83cc-44c1-b202-8883300ff596" name="Changes" comment="" />
+      <created>1666468783439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666468783439</updated>
+      <workItem from="1666468796715" duration="1223000" />
+      <workItem from="1666470069634" duration="5807000" />
+      <workItem from="1666522972851" duration="2000" />
+      <workItem from="1666537115900" duration="283000" />
+      <workItem from="1666548608049" duration="683000" />
+      <workItem from="1666550258926" duration="3473000" />
+      <workItem from="1666554096792" duration="444000" />
+      <workItem from="1666555799613" duration="44000" />
+      <workItem from="1666556039816" duration="801000" />
+      <workItem from="1666556914301" duration="28000" />
+      <workItem from="1666556970712" duration="15000" />
+      <workItem from="1666557031122" duration="53000" />
+      <workItem from="1666557184939" duration="44000" />
+      <workItem from="1666557294777" duration="184000" />
+      <workItem from="1666557483765" duration="620000" />
+      <workItem from="1666566702388" duration="2000" />
+      <workItem from="1666624145971" duration="1305000" />
+      <workItem from="1666643567333" duration="2950000" />
+      <workItem from="1666646604367" duration="1843000" />
+      <workItem from="1666648685434" duration="5000" />
+      <workItem from="1666648704611" duration="66000" />
+      <workItem from="1666691695355" duration="6000" />
+      <workItem from="1666715058727" duration="2665000" />
+      <workItem from="1666722066533" duration="2764000" />
+      <workItem from="1666724904817" duration="3956000" />
+      <workItem from="1666808286773" duration="4180000" />
+      <workItem from="1666812529299" duration="155000" />
+      <workItem from="1666812696571" duration="3899000" />
+    </task>
+    <task id="LOCAL-00001" summary="Created social website -&gt; created app account">
+      <created>1666470168502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666470168502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added dashboard, functional login and functional password">
+      <created>1666550322439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666550322439</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added dashboard, functional login and functional password">
+      <created>1666550338181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666550338181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed the first version of the authentication system">
+      <created>1666558080031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666558080031</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed the first version of the authentication system">
+      <created>1666558089252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666558089252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added new features, implemented asynchrony (celery, rabbitmq)">
+      <created>1666728829241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666728829241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added new features, implemented asynchrony (celery, rabbitmq)">
+      <created>1666728839825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666728839825</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Some commit">
+      <created>1666816457233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666816457233</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Some commit">
+      <created>1666816492678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666816492678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed login view">
+      <created>1666816910951</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666816910951</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created social website -&gt; created app account" />
+    <MESSAGE value="Added dashboard, functional login and functional password" />
+    <MESSAGE value="Completed the first version of the authentication system" />
+    <MESSAGE value="Added new features, implemented asynchrony (celery, rabbitmq)" />
+    <MESSAGE value="Some commit" />
+    <MESSAGE value="Changed login view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed login view" />
+  </component>
+</project>
