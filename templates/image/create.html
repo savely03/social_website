@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block title %}
+    Bookmark an image
+{% endblock %}
+
+{% block content %}
+    <img src="{{ request.GET.url }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        {% render_field form.title class="form-control" id="title" %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        {% render_field form.description class="form-control" id="description" %}
+                    </div>
+                    <button type="submit" class="btn btn-primary">Bookmark it!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
